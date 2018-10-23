@@ -24,3 +24,28 @@
       }
       
       output : 10
+
+#### running project using cargo : (build and run project)
+      
+######      creating project
+            mithun@linux:~/Documents/rustl/example$ cargo new hello_world --bin
+            Created binary (application) `hello_world` project
+      
+######      project structure      
+            mithun@linux:~/Documents/rustl/example$ cd hello_world/
+            mithun@linux:~/Documents/rustl/example/hello_world$ ls
+            Cargo.toml  src(main.rs)
+      
+######      opening project in visual code
+            mithun@linux:~/Documents/rustl/example/hello_world$ code .
+      
+######      building project
+            mithun@linux:~/Documents/rustl/example/hello_world$ cargo build
+            Compiling hello_world v0.1.0 (file:///home/mithun/Documents/rustl/example/hello_world)
+            Finished dev [unoptimized + debuginfo] target(s) in 0.79s
+
+#####       running project
+            mithun@linux:~/Documents/rustl/example/hello_world$ cargo run
+            Finished dev [unoptimized + debuginfo] target(s) in 0.06s                   
+            Running `target/debug/hello_world`
+            Hello, world!
