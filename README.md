@@ -16,3 +16,11 @@
       mithun@linux:~/Documents/rustl/example$ rustc hello.rs
       run : 
       mithun@linux:~/Documents/rustl/example$ ./hello
+
+#### format string
+      fn main(){
+            let x = 5 + /**/ 5;
+            println!("the result is {}", x)
+      }
+      
+      output : 10
