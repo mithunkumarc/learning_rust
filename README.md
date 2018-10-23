@@ -49,3 +49,10 @@
             Finished dev [unoptimized + debuginfo] target(s) in 0.06s                   
             Running `target/debug/hello_world`
             Hello, world!
+            
+            
+            
+### links
+      https://doc.rust-lang.org/reference/index.html
+      https://doc.rust-lang.org/std/index.html
+      https://doc.rust-lang.org/rust-by-example/index.html
