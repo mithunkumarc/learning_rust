@@ -1,5 +1,8 @@
 #### installation
       https://www.rust-lang.org/en-US/install.html
+      https://www.rust-lang.org/tools/install
+      https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/
+
       
       
 #### on ubuntu
