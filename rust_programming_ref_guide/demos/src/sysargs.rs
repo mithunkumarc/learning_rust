@@ -8,7 +8,7 @@ pub fn print_message(name: String) {
 some vs none
 https://doc.rust-lang.org/std/option/
 
---main.rs---
+---main.rs---
 
 mod sysargs;
 use std::env;
@@ -20,5 +20,8 @@ fn main() {
         None => panic!("Didn't receive any name ?")
     }
 }
+
+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
+https://github.com/GitCredentialManager/git-credential-manager
 
 */
