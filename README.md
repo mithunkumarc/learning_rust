@@ -4,6 +4,9 @@
       https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/
 
       
+#### modules 
+
+      https://learning-rust.github.io/docs/d3.modules.html
       
 #### on ubuntu
       To install Rust, run the following in your terminal, then follow the onscreen instructions.
