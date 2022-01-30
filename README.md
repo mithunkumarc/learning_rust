@@ -12,6 +12,10 @@
 
       https://blog.thoughtram.io/references-in-rust/
 
+#### todo
+
+      https://www.hackertouch.com/rust-programming-language.html
+
 #### on ubuntu
       To install Rust, run the following in your terminal, then follow the onscreen instructions.
       curl https://sh.rustup.rs -sSf | sh
