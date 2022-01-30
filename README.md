@@ -7,7 +7,11 @@
 #### modules 
 
       https://learning-rust.github.io/docs/d3.modules.html
-      
+
+#### references 
+
+      https://blog.thoughtram.io/references-in-rust/
+
 #### on ubuntu
       To install Rust, run the following in your terminal, then follow the onscreen instructions.
       curl https://sh.rustup.rs -sSf | sh
