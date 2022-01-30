@@ -11,5 +11,9 @@ fn hello() {
 }
 
 fn add(a: u64, b: u64) -> u64{
-    a + b // no return statement required
+    /*
+    return statement not required for returning value
+    sometimes it is required for early return(stop execution further)
+    */
+    a + b
 }
