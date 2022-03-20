@@ -6,6 +6,10 @@
       unsigned u8 u16 u32 u64 u128
 
 4. isize : pointer sized integer type. i32 on 32 bit os, i64 on 64 bit os.
+
+      use std::mem;
+      println!("{}",mem::size_of::<isize>()); // 4 in 32 bit os and 8 in 64 bit os
+
 5. usize : same as isize but unsigned
 6. f32 : 
 7. f64
