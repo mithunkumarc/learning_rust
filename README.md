@@ -2,6 +2,24 @@
       https://www.rust-lang.org/en-US/install.html
       https://www.rust-lang.org/tools/install
       https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/
+      
+#### update rust to latest stable version
+
+      $ rustc --version
+      rustc 1.27.2 (58cc626de 2018-07-18)
+      $ cargo --version
+      cargo 1.27.0 (1e95190e5 2018-05-27)
+
+      $ rustup update stable
+      info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
+      ...
+
+      $ rustc --version
+      rustc 1.28.0 (9634041f0 2018-07-30)
+      $ cargo --version
+      cargo 1.28.0 (96a2c7d16 2018-07-13)
+
+
 
       
 #### modules 
