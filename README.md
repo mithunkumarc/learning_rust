@@ -19,7 +19,10 @@
       $ cargo --version
       cargo 1.28.0 (96a2c7d16 2018-07-13)
 
+#### creating and running project
 
+      creating project :                  cargo new <project name>
+      running project : proj name>        cargo run
 
       
 #### modules 
