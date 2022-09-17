@@ -16,3 +16,14 @@
 
       let player = Player::with_name("Dave");
       player.get_friends(
+
+
+            // methods : belong to struct instance, identify &self
+            // Line: struct with x and y as fields
+            impl Line {
+                  fn len(&self) -> f64 {
+                        let dx = self.start.x  self.end.x;
+                        (dx*dx+dy+dy).sqrt()
+                  }
+            }
+
