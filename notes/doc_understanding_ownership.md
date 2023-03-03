@@ -47,5 +47,13 @@ At this point, the relationship between scopes and when variables are valid is s
 * To illustrate the rules of ownership, we need a data type that is more complex “Data Types” like string/object(struct). 
 * The types covered previously are of a known size(primitive types), can be stored on the stack and popped off the stack when their scope is over, and can be quickly and trivially copied to make a new, independent instance if another part of code needs to use the same value in a different scope. 
 * But we want to look at data that is stored on the heap(object) and explore how Rust knows when to clean up that data, and the String type is a great example.
+* We’ll concentrate on the parts of String that relate to ownership. These aspects also apply to other complex data types, whether they are provided by the standard library or created by you. 
+* We’ve already seen string literals, where a string value is hardcoded into our program. 
+
+       let s = "hello"; // also called as &str, you will see later
+       
+* String literals are convenient, but they aren’t suitable for every situation in which we may want to use text. One reason is that they’re immutable. Another is that not every string value can be known when we write our code: for example, what if we want to take user input and store it? For these situations, Rust has a second string type, String. This type manages data allocated on the heap and as such is able to store an amount of text that is unknown to us at compile time. You can create a String from a string literal using the from function, like so:
+
+       let s = String::from("hello");
 
 
